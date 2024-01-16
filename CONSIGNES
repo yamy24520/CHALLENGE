@@ -1,0 +1,14 @@
+Challenge Python - Vérification de la disponibilité des ports réseau
+
+Écrivez un programme Python qui prend en entrée une adresse IP ou un nom de domaine, ainsi qu'une liste de numéros de port, et vérifie si ces ports sont ouverts sur la machine distante.
+
+Voici les étapes que vous pouvez suivre :
+
+- Définissez une fonction verifier_ports(ip, ports) qui prend en entrée l'adresse IP ou le nom de domaine de la machine distante et une liste de numéros de port à vérifier.
+
+- Utilisez des sockets pour tenter de vous connecter à chaque port de la machine distante. Si la connexion réussit, cela signifie que le port est ouvert.
+
+- La fonction doit renvoyer la liste des numéros de port ouverts.
+
+Votre défi consiste à créer la fonction verifier_ports qui utilise des sockets pour vérifier la disponibilité des ports réseau sur la machine distante.
+Assurez-vous de gérer les erreurs et les exceptions appropriées, et de fournir des informations claires sur les ports ouverts.
